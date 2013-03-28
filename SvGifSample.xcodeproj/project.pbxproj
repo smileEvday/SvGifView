@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5212C76170469E4003D23BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5212C75170469E4003D23BE /* UIKit.framework */; };
+		F5212C78170469E4003D23BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5212C77170469E4003D23BE /* Foundation.framework */; };
+		F5212C7A170469E4003D23BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5212C79170469E4003D23BE /* CoreGraphics.framework */; };
+		F5212C80170469E4003D23BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5212C7E170469E4003D23BE /* InfoPlist.strings */; };
+		F5212C82170469E4003D23BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5212C81170469E4003D23BE /* main.m */; };
+		F5212C86170469E4003D23BE /* SvGifAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5212C85170469E4003D23BE /* SvGifAppDelegate.m */; };
+		F5212C88170469E4003D23BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5212C87170469E4003D23BE /* Default.png */; };
+		F5212C8A170469E4003D23BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5212C89170469E4003D23BE /* Default@2x.png */; };
+		F5212C8C170469E4003D23BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5212C8B170469E4003D23BE /* Default-568h@2x.png */; };
+		F5212C8F170469E4003D23BE /* SvGifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5212C8E170469E4003D23BE /* SvGifViewController.m */; };
+		F5212C92170469E4003D23BE /* SvGifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5212C90170469E4003D23BE /* SvGifViewController.xib */; };
+		F5212C9B17046A0A003D23BE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5212C9A17046A09003D23BE /* ImageIO.framework */; };
+		F5212CA217046AD8003D23BE /* SvGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5212CA117046AD8003D23BE /* SvGifView.m */; };
+		F580ECFC17047EA600DCE56A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F580ECFB17047EA600DCE56A /* QuartzCore.framework */; };
+		F580ECFE1704891300DCE56A /* jiafei.gif in Resources */ = {isa = PBXBuildFile; fileRef = F580ECFD1704891300DCE56A /* jiafei.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5212C72170469E4003D23BE /* SvGifSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvGifSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5212C75170469E4003D23BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5212C77170469E4003D23BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5212C79170469E4003D23BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5212C7D170469E4003D23BE /* SvGifSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SvGifSample-Info.plist"; sourceTree = "<group>"; };
+		F5212C7F170469E4003D23BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5212C81170469E4003D23BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5212C83170469E4003D23BE /* SvGifSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SvGifSample-Prefix.pch"; sourceTree = "<group>"; };
+		F5212C84170469E4003D23BE /* SvGifAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvGifAppDelegate.h; sourceTree = "<group>"; };
+		F5212C85170469E4003D23BE /* SvGifAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvGifAppDelegate.m; sourceTree = "<group>"; };
+		F5212C87170469E4003D23BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5212C89170469E4003D23BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F5212C8B170469E4003D23BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5212C8D170469E4003D23BE /* SvGifViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvGifViewController.h; sourceTree = "<group>"; };
+		F5212C8E170469E4003D23BE /* SvGifViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvGifViewController.m; sourceTree = "<group>"; };
+		F5212C91170469E4003D23BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SvGifViewController.xib; sourceTree = "<group>"; };
+		F5212C9A17046A09003D23BE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F5212CA017046AD8003D23BE /* SvGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SvGifView.h; path = SvGifView/SvGifView.h; sourceTree = SOURCE_ROOT; };
+		F5212CA117046AD8003D23BE /* SvGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SvGifView.m; path = SvGifView/SvGifView.m; sourceTree = SOURCE_ROOT; };
+		F580ECFB17047EA600DCE56A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F580ECFD1704891300DCE56A /* jiafei.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jiafei.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5212C6F170469E4003D23BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F580ECFC17047EA600DCE56A /* QuartzCore.framework in Frameworks */,
+				F5212C9B17046A0A003D23BE /* ImageIO.framework in Frameworks */,
+				F5212C76170469E4003D23BE /* UIKit.framework in Frameworks */,
+				F5212C78170469E4003D23BE /* Foundation.framework in Frameworks */,
+				F5212C7A170469E4003D23BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5212C69170469E4003D23BE = {
+			isa = PBXGroup;
+			children = (
+				F5212C7B170469E4003D23BE /* SvGifSample */,
+				F5212C74170469E4003D23BE /* Frameworks */,
+				F5212C73170469E4003D23BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5212C73170469E4003D23BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5212C72170469E4003D23BE /* SvGifSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5212C74170469E4003D23BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F580ECFB17047EA600DCE56A /* QuartzCore.framework */,
+				F5212C9A17046A09003D23BE /* ImageIO.framework */,
+				F5212C75170469E4003D23BE /* UIKit.framework */,
+				F5212C77170469E4003D23BE /* Foundation.framework */,
+				F5212C79170469E4003D23BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5212C7B170469E4003D23BE /* SvGifSample */ = {
+			isa = PBXGroup;
+			children = (
+				F5212C84170469E4003D23BE /* SvGifAppDelegate.h */,
+				F5212C85170469E4003D23BE /* SvGifAppDelegate.m */,
+				F5212C8D170469E4003D23BE /* SvGifViewController.h */,
+				F5212C8E170469E4003D23BE /* SvGifViewController.m */,
+				F5212C90170469E4003D23BE /* SvGifViewController.xib */,
+				F5212C9C17046A28003D23BE /* SvGifView */,
+				F5212C7C170469E4003D23BE /* Supporting Files */,
+			);
+			path = SvGifSample;
+			sourceTree = "<group>";
+		};
+		F5212C7C170469E4003D23BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F580ECFD1704891300DCE56A /* jiafei.gif */,
+				F5212C7D170469E4003D23BE /* SvGifSample-Info.plist */,
+				F5212C7E170469E4003D23BE /* InfoPlist.strings */,
+				F5212C81170469E4003D23BE /* main.m */,
+				F5212C83170469E4003D23BE /* SvGifSample-Prefix.pch */,
+				F5212C87170469E4003D23BE /* Default.png */,
+				F5212C89170469E4003D23BE /* Default@2x.png */,
+				F5212C8B170469E4003D23BE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5212C9C17046A28003D23BE /* SvGifView */ = {
+			isa = PBXGroup;
+			children = (
+				F5212CA017046AD8003D23BE /* SvGifView.h */,
+				F5212CA117046AD8003D23BE /* SvGifView.m */,
+			);
+			path = SvGifView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5212C71170469E4003D23BE /* SvGifSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5212C95170469E4003D23BE /* Build configuration list for PBXNativeTarget "SvGifSample" */;
+			buildPhases = (
+				F5212C6E170469E4003D23BE /* Sources */,
+				F5212C6F170469E4003D23BE /* Frameworks */,
+				F5212C70170469E4003D23BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SvGifSample;
+			productName = SvGifSample;
+			productReference = F5212C72170469E4003D23BE /* SvGifSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5212C6A170469E4003D23BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SvGif;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = smileEvday;
+			};
+			buildConfigurationList = F5212C6D170469E4003D23BE /* Build configuration list for PBXProject "SvGifSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5212C69170469E4003D23BE;
+			productRefGroup = F5212C73170469E4003D23BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5212C71170469E4003D23BE /* SvGifSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5212C70170469E4003D23BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5212C80170469E4003D23BE /* InfoPlist.strings in Resources */,
+				F5212C88170469E4003D23BE /* Default.png in Resources */,
+				F5212C8A170469E4003D23BE /* Default@2x.png in Resources */,
+				F5212C8C170469E4003D23BE /* Default-568h@2x.png in Resources */,
+				F5212C92170469E4003D23BE /* SvGifViewController.xib in Resources */,
+				F580ECFE1704891300DCE56A /* jiafei.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5212C6E170469E4003D23BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5212C82170469E4003D23BE /* main.m in Sources */,
+				F5212C86170469E4003D23BE /* SvGifAppDelegate.m in Sources */,
+				F5212C8F170469E4003D23BE /* SvGifViewController.m in Sources */,
+				F5212CA217046AD8003D23BE /* SvGifView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5212C7E170469E4003D23BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5212C7F170469E4003D23BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5212C90170469E4003D23BE /* SvGifViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5212C91170469E4003D23BE /* en */,
+			);
+			name = SvGifViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5212C93170469E4003D23BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5212C94170469E4003D23BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5212C96170469E4003D23BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvGifSample/SvGifSample-Prefix.pch";
+				INFOPLIST_FILE = "SvGifSample/SvGifSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5212C97170469E4003D23BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvGifSample/SvGifSample-Prefix.pch";
+				INFOPLIST_FILE = "SvGifSample/SvGifSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5212C6D170469E4003D23BE /* Build configuration list for PBXProject "SvGifSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5212C93170469E4003D23BE /* Debug */,
+				F5212C94170469E4003D23BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5212C95170469E4003D23BE /* Build configuration list for PBXNativeTarget "SvGifSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5212C96170469E4003D23BE /* Debug */,
+				F5212C97170469E4003D23BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5212C6A170469E4003D23BE /* Project object */;
+}
