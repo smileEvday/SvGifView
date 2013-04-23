@@ -86,6 +86,14 @@ void getFrameInfo(CFURLRef url, NSMutableArray *frames, NSMutableArray *delayTim
     return self;
 }
 
+- (void)dealloc
+{
+    [_frames release];
+    [_frameDelayTimes release];
+    
+    [super dealloc];
+}
+
 + (NSArray*)framesInGif:(NSURL *)fileURL
 {
     NSMutableArray *frames = [NSMutableArray arrayWithCapacity:3];
