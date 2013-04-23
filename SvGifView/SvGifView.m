@@ -44,6 +44,10 @@ void getFrameInfo(CFURLRef url, NSMutableArray *frames, NSMutableArray *delayTim
             *totalTime = *totalTime + [[gifDict valueForKey:(NSString*)kCGImagePropertyGIFDelayTime] floatValue];
         }
     }
+    
+    if (gifSource) {
+        CFRelease(gifSource);
+    }
 }
 
 @interface SvGifView() {
