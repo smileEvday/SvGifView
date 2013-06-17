@@ -43,6 +43,8 @@ void getFrameInfo(CFURLRef url, NSMutableArray *frames, NSMutableArray *delayTim
         if (totalTime) {
             *totalTime = *totalTime + [[gifDict valueForKey:(NSString*)kCGImagePropertyGIFDelayTime] floatValue];
         }
+        
+        CFRelease(dict);
     }
     
     if (gifSource) {
